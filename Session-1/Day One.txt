@@ -59,3 +59,117 @@ Back End:
 Database:
 	-Its storage which storing all your information of application
 	-examples: oracle,MySql,MS SQL Server,MA Access etc..
+
+---------------------------------------------------------------------------------------------------------------
+
+BASIC OF PROGRAMMING LANGUAGE
+=============================
+
+VARIABLE:
+	- whose value can be varied and not fixed everytime
+	- whenever you try to work with some program you required to take input from user and process the input and generate the output
+	- for that you require some temperary storage to store this input and output values. 
+	- for that we can declare varibles
+	- it store the value and you can process the same.
+
+IDENTIFIER:
+
+	- TO INDENTIFY A variable created, we require indentifier
+	- we can say that name of varibale
+	- to name a varibale we need to foolow some set of rules
+
+Rules:
+	1. varibale name van not start with number (1num is not valid)
+	2. it can be an alphanumeric (num1 is valid)
+	3. No Special characters are allowed (.,?/ space etc)
+	4. Only _ and $ you can use while giving the variable name.
+	5. it can not  be more than 255 character long.
+	6. naming convensions: first word should be in lower case,if it contains more words then second word first letter should be in capital 
+	(eg: firstName,lastName,monileNo...) Or
+	(eg: first_name,last_name,mobile_no)
+	7. should not give the name of variable with reserved keywords
+
+
+KEYWORD:
+----------------------------------------------------------------------------
+
+- a specific keyword  which are basically used to write code in programming langugae.
+-like if, else, switch, inlcude, int, float, boolean,double,char etc...
+
+
+DataTypes:
+----------------------------------------------------------------------------
+
+- whenever you try to store your data , your memory must asign a memory size to that varibale so that it can store values inside the same, that you can define with the type of  your data.means your data can be a number, decimal number, text, single character, or either true or false.
+
+1. WHOLE NUMBER(0,1,2,3,4......) : it can be zero or positive : int
+
+2. DECIMAL NUMBER(1.2, 4.6,negative or positive or zero but with floating points): float
+
+3. SINGLE CHARACTER('a','l') : char
+
+4. TEXT - sequence of characters ("NIKUNJ")- Array of char
+
+5. single bit value (0 or 1)--0-false, 1-true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
