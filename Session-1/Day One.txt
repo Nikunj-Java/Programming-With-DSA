@@ -151,24 +151,269 @@ printf is the fucntion avaiable in studio.h library which is used to  display so
 each statement must ends with semicolon(;) 
 
 
+----------------------------------------------------------------------------------------------------
+
+Simple Program with Varibale declaration
+
+#include<stdio.h>
+
+int main(){
+    
+   
+    int num1=10;
+    int num2=20;
+    
+    int result= num1+num2;
+    
+    printf("Number  1=%d \n",num1);
+    printf("Number 2=%d \n",num2);
+    printf("Result = %d \n",result);
+    printf("%d +%d=%d\n",num1,num2,result);
+}
+
+
+
+
+--------------------------------------------------------------------------------------------------
+\n is used to separate line from two output.
+
+
+
+
+Operators
+---------------------------------------------------
+
+its symbol which we can use to perform the operation on operands(varibale)
+
+
+Arithmatic Operators
+
++ addition
+- subtraction
+* multiplication
+/ division
+
+
+#include<stdio.h>
+
+int main(){
+    
+    int num1=10;
+    int num2= 20;
+    
+    int add= num1+num2;
+    int sub= num1-num2;
+    int mul= num1*num2;
+    int divide= num1/num2;
+    
+    printf("Number 1=%d \n",num1);
+    printf("Number 2=%d \n",num2);
+    
+    printf("%d + %d =%d \n",num1,num2,add);
+    printf("%d -%d =%d \n",num1,num2,sub);
+    
+    //display the result of mul and divide
+}
+
+
+
+----------------------------------------------------------------------------------------
+
+COMMENTS
+------------
+-they are non executable code in your program (not run in the program)
+
+-we can write this for developers understanding
+
+-there are two types of comments
+	1.  SINGLE LINE
+	2.  MULTI LINE
+
+1. SINGLE LINE
+		//This is my comment
+2. MULTI LINE
+
+	/*
+
+	This is multiline commets
+	Developer Name: Nikunj Soni
+	Date: 3rd Sept 2022
+
+	*/
+
+------------------------------------------------------------------------------------------------
+
+ALGORITHM:
+
+- it is set of well defined instructions to solve a particular problem.
+- it takes a set of input(s) and produces the desire output. For ex: 
+	1. Take Two Number Input
+	2. Add numbers  using the operator
+	3. Display the result
+---------------------------------------------------------------------------------------------------------------
+Quality of good Algorithm
+
+1. input and out put should be defined clearly
+2. Each step in the algorithm should be clear
+3. Algorithms shoudn't includes computer codes. instead of this alorithm should be written in such a waty that it can be used in different programming langugages.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+Relational Operator 
+
+used to compare:
+
+<  ------>less than
+>  ------> Greater than
+<= ------> Less than or equals
+>= ------>greter than or equals
+== ------> equals
+!= ------> not equals
+
+
+prepare one program out of any of the above operator and get the result 
+---------------------------------------------------------------------------------------------------------------
+when you want to check some condition ,conditional statements are used for checking conditions
+
+if, else if we can use for condition
+
+-----------------------------------------------------
+syntax
+----------
+
+
+if(condition)
+{
+
+		//write your statement for correct condition 
+}
+
+else{
+		//write the statement for incorrect condition
+
+}
+
+
+
+
+Example:
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int num1= 50;
+    int num2=20;
+    
+    if(num1>num2){
+        printf("%d is larger",num1);
+    }
+    else{
+        printf("%d is smaller",num2);
+    }
+     
+     
+}
 
 
 
 
 
+Task:
+--------------------------------
+
+1. Write a program to simple display your name, address, phone, Qualification details line by line.
+2. WAP Calculate area of Square and Rectangle
+	- Area of Square =(side * Side)
+	- Area of Rectangle = Length X Breadth
+3. WAP to calculate area of circle.
+	- Area of circle= pi * r * r
+	- pi = 3.14
+	(Hint: declare a variable float pi=3.14)
+4. WAP to calculate perimeter of square and rectangle
+	-perimeter is sum of all sides
+	-perimeter of square = 4(sides)
+	-perimeter of rectangle =l+l+b+b= 2(l+b)
+
+5. WAP to calculate Circumference of Circle (2 * pi *r)
+
+6. WAP to calculate Simple interest
+	formula: PNR/100
+	P: principle amount (3000)
+	N: no.of years (3)
+	R. rate of interest (8.40)
+
+7. WAP to check the user is valid for vote or not?
+	(hint : age>18)
+
+8. WAP to check whether the number is divisible by 3 or not
+
+
+
+
+solutions:
 
 
 
 
 
+#include <stdio.h>
+
+int main()
+{
+     //square
+     int side=10;
+     
+     int area= side * side;
+     
+     //rectangle
+     int length=5;
+     int breadth=6;
+     
+     int area_rectangle= length * breadth;
+     
+     //circle
+      float pi=3.14;
+      float radius=5;
+      float area_circle=pi*radius*radius;
+      
+      
+      
+     
+    
+     printf(" Area of Square %d \n",area);
+     printf(" Area of Rectangle %d \n",area_rectangle);
+     printf(" Area of circle == %f  \n" , area_circle);
+     
+     //permiter of Square
+     
+     printf(" Perimeter of Square %d \n",4*side);
+     printf(" Perimeter of Rectangle %d \n",2*(length+breadth));
+     
+     //Circumference of area_circle= 2* pi* radius
+     
+     printf(" Circumference of circle %f \n",2*pi*radius);
+     
+     //simple interest
+     
+     float P = 100;
+     float T  = 3;
+     float R = 8.40;
+     float SI = ((P*R*T)/100);
+     printf("Simple Interest = %f %\n", SI);
+      
+      
+}
 
 
 
 
 
-
-
- 
 
 
 
