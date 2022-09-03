@@ -1,0 +1,61 @@
+Website
+---------
+
+There are two types of website
+	1. Static Website 
+	---------------------
+	- Where user can't do any interaction (Wickipedia)
+
+	2. Dynamic Website
+	---------------------
+	- where user can do interactions( Login, register, update profile,like,comments etc)
+	- examples: facebook.com,amazon.in
+
+
+Programming Language:
+----------------------
+
+A language which is sused to create a program  using that you can communicate with your computer system
+or with the application.
+
+Example: Python,JS,C#,C,C++,Java
+
+How it is working?
+------------------
+- programming language means where you can not run the program directly,first we have to convert it in machine understable code and then only we can run it.
+
+- machine understable code is called as byte code(native code) which you can execute
+
+
+- to convert your program into native code you required a compiler which will compile your program into byte code
+
+- Each Programming Language has its own Compiler.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+WebApplication
+---------------
+- it is divided into three parts
+	1. Frontend
+	2. Backend
+	3. Database
+ (some time backend and database may be at the same location)
+
+
+
+----------------------------------------------------------------
+
+
+Front End:
+	- means view(GUI Graphic User Interface OR Representation Of Your Application)
+	- the things or information like Buttons, Images, that we want to show to client/User
+	- we can create using HTML,CSS,JS etc...
+Back End:
+	- means user can't see becuase its a logic written to process  the user request
+
+	- that we can write using the languages like: Java,c#, Python...
+
+Database:
+	-Its storage which storing all your information of application
+	-examples: oracle,MySql,MS SQL Server,MA Access etc..
