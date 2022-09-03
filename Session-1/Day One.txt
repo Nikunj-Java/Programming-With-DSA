@@ -114,6 +114,69 @@ DataTypes:
 
 
 
+---------------------------------------------------------------------------------------------------------------
+Syntax:
+------------------------
+below is the structure of your basic c program
+
+
+
+#include<stdio.h>
+
+int main(){
+    
+    printf("Hello From Simplilearn");
+}
+
+-----------------------------------------------
+
+#include include library mentioned inside angle brackets menas if you want to  use any library then take the permission from the same and start using its function
+	like: #include<stdio.h>
+
+stdio.h is the library which provides function related to standard input and output.
+
+
+int main(){ }--- called as main function (from where program starts its execution)
+
+int is return type means when function executed it return some value.
+
+main is the method name where () says no parameter required to run this function
+
+if you want to pass parameters the function look like this main(int num1, int num2)
+
+{ } called as a block of code where you should write sataments for your logic .
+
+printf is the fucntion avaiable in studio.h library which is used to  display some value as an output
+
+each statement must ends with semicolon(;) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
