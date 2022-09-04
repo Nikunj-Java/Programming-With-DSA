@@ -148,4 +148,269 @@ int main()
 --------------------------------------------------------------------
 
 
+String demo
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+    //String Demo
+    
+    char name[]="nikunj soni";
+    char phone[]="9876543210";
+    
+    printf("My Name is: %s \n",name);
+    printf("Phone Number is: %s \n",phone);
+    
+ 
+    
+    
+}
+
+
+
+
+---------------------------------------------------------------------------------------------
+
+
+let's do some examples with c++
+---------------------------------
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int number=20;
+    cout<<"Hello World \n";
+    cout<<"My Name is Nikunj"<<endl;
+    cout<<"My Roll Number is: "<< number<<endl;
+    
+    //endl means end line and give output in another line
+    //either use \n or endl
+}
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+SWITCH CASE:
+------------
+
+In condition what is you want tomatch an int or string or char and compare and according to that provide  the output.
+
+ this you can do it with if and else, but what happens everytime it will check each condition, means to check the condition it takes time. so if you directly want to jump on some cases we can go for Switch Case.
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num1,num2;
+    cout<<"Enter 2 numbers"<<endl;
+    cin>>num1>>num2;
+    
+    char op;
+    
+    cout<<"Enter any operator from + - * /"<<endl;
+    
+    cin>>op;
+    
+    switch(op){
+        
+        case '+': cout<<"Addition: "<<(num1+num2)<<endl;
+                break;
+        
+        case '-': cout<<"Subtraction: "<<(num1-num2)<<endl;
+                break;
+        
+        // write for case * and /
+        default: cout<<"Kindly enter Proper Operator"<<endl;
+    }
+}
+
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+LOOPS:(Iteration) - repeat the same thing multiple time
+
+whenever you want to execute some similar kind of statements we can take help of loops.
+
+we have 3 types of loops
+
+1. While Loop
+
+------------------------
+
+syntax: while(condition)
+	{
+		//statements
+	}
+
+
+====================================
+Example:
+====================================
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i=1;
+    
+    while(i<=5){
+        cout<<"Value of i :"<<i<<endl;
+        i++ ;//increase the value of i by 1 everytime
+    }
+    
+    cout<<"Loop Terminated"<<endl;
+}
+==========================================
+------------------------
+
+
+2. Do while loop
+------------------------
+
+syntax: 
+	do{
+		//statement
+	}
+	while(condition);
+
+
+==================
+Example:
+==================
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i=1;
+    
+    do{
+        cout<<"Value of i: "<<i<<endl;
+        i++;
+    }while(i<=5);
+    
+    cout<<"Loop Terminated"<<endl;
+}
+
+
+
+
+--------------------------
+
+3. For Loop
+--------------------------
+syntax:
+	for (intialization; condition; increment/decrement)
+	{
+		//statements
+	}
+
+
+=======================
+Example:
+=======================
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i;
+    
+    for(i=1; i<=5;i++){
+        cout<<"Value of i :"<<i<<endl;
+    }
+    
+    cout<<"Loop terminated"<<endl;
+}
+
+
+=========================
+Example:  2
+=========================
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i;
+    int sum=0;
+    
+    for(i=1; i<=5;i++){
+        sum=sum+i;
+        cout<<"Value of i :"<<i<<endl;
+        cout<<"Sum is :"<<sum<<endl;
+        
+    }
+    
+    cout<<"Loop terminated"<<endl;
+}
+
+-------------------------------------------------------------------
+
+Task: WAP to take  input from user and iterate the for loop
+
+
+Solution:
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    int i;
+    int sum=0;
+    
+    int input;
+    
+    cout<<"Enter any number"<<endl;
+    
+    cin>>input;
+    
+    for(i=1; i<=input;i++){
+        sum=sum+i;
+        cout<<"Value of i :"<<i<<endl;
+        cout<<"Sum is :"<<sum<<endl;
+        
+    }
+    
+    cout<<"Loop terminated"<<endl;
+}
+
+
+
+
+
+
+
+
+
+
 
