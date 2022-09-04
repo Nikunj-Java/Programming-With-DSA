@@ -1,0 +1,62 @@
+Logical operator
+-------------------
+
+Used to combine conditions
+
+if you want to  test more than one condition then you can use logical operator.
+
+&& (AND)  ----> if both conditions are tru then only it is executed
+
+
+|| (OR)  -----> if any of the condition is true then only it is executed
+
+
+! (NOT)  -----> to make the condition from false to true and true to false.
+
+
+
+----------------Basic program--------------------
+
+#include <stdio.h>
+
+int main()
+{
+    
+    char c='e';
+    
+    if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'|| c=='A' || c=='E' || c=='I' || c=='O' || c=='U')
+    {
+        printf("Character is Vovel");
+    }
+    else{
+        printf("It is not a vovel");
+    }
+}
+
+
+
+---------------let's take input from user and  check the same program-------------------------
+
+
+#include <stdio.h>
+int main()
+{
+    
+    char c;
+    
+    printf("Enter a character: ");
+    scanf("%c",&c);
+    printf("You have Entered  %c. \n",c);
+    
+    
+    if(c=='a' || c=='e' || c=='i' || c=='o' || c=='u'|| c=='A' || c=='E' || c=='I' || c=='O' || c=='U')
+    {
+        printf("Character is Vovel");
+    }
+    else{
+        printf("It is not a vovel");
+    }
+    
+} 
+
+-----------------------------------------------------------------------------------------
